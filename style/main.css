@@ -2,11 +2,11 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: black  url('http://svite-league-apps-content.s3.amazonaws.com/bgimages/blue-slate.jpg');
+  background: #ecf0f1;
   background-size: cover;
   background-repeat: fixed 150% 150%;
   background-attachment: fixed;
-  color: white  ;
+  color: black  ;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px; }
 
@@ -64,7 +64,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #3399FF;
+  background: #95a5a6;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -83,7 +83,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #white; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -157,7 +157,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: black;
+  background: #95a5a6;
   border-radius: 6px;
   width: 621px;
   height: 621px;
@@ -233,6 +233,7 @@ hr {
 .tile {
   width: 106.25px;
   height: 106.25px;
+  color: white;
   line-height: 116.25px; }
   .tile.tile-position-1-1 {
     position: absolute;
@@ -378,11 +379,11 @@ hr {
   background-image: url('../img/kochari.jpg');
 }
 .tile.tile-1024 {
-  background: #73B3F1 url('candles.jpg');
+  background-image: url('../img/candles.jpg');
   font-size: 35px;
 }
 .tile.tile-2048 {
-  background: #73B3F1 url('../img/mountains.jpg');
+  background-image: url('../img/mountains.jpg');
 }
 
 
@@ -604,7 +605,7 @@ hr {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    background: black;
+    background: #95a5a6;
     border-radius: 6px;
     width: 347.5px;
     height: 347.5px;
@@ -855,3 +856,18 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+
+  .donate a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+
+  .donate button {
+    background: #febd69;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 35px;
+  }
