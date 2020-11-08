@@ -1,4 +1,7 @@
-@import url(fonts/clear-sans.css);
+@font-face {
+  font-family: "Clear Sans";
+  src: url("./fonts/clear-sans.ttf");
+}
 html, body {
   margin: 0;
   padding: 0;
